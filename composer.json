@@ -1,0 +1,20 @@
+{
+    "name": "mage-os-lab/module-backup",
+    "description": "This module manages backups for Magento 2.",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageOS\\Backup\\": ""
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
