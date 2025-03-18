@@ -5,8 +5,8 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="Magento_Backend::system">
-                    <resource id="MageOS_Backup::backup" title="Backup Management" sortOrder="100">
-                        <resource id="MageOS_Backup::backup_list" title="View Backup List" sortOrder="10"/>
+                    <resource id="MageOS_BackupEnhanced::backup" title="Backup Management" sortOrder="100">
+                        <resource id="MageOS_BackupEnhanced::backup_list" title="View Backup List" sortOrder="10"/>
                     </resource>
                 </resource>
             </resource>

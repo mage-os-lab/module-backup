@@ -1,5 +1,11 @@
 <?php
-namespace MageOS\Backup\Cron;
+/**
+ * Copyright © 2025 Tux Web Design. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+declare(strict_types=1);
+
+namespace MageOS\BackupEnhanced\Cron;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Filesystem;

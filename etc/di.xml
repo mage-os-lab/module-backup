@@ -4,7 +4,7 @@
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="backup_listing_data_source" xsi:type="string">MageOS\Backup\Ui\DataProvider\BackupDataProvider</item>
+                <item name="backup_listing_data_source" xsi:type="string">MageOS\BackupEnhanced\Ui\DataProvider\BackupDataProvider</item>
             </argument>
         </arguments>
     </type>

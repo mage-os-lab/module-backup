@@ -1,5 +1,11 @@
 <?php
-namespace MageOS\Backup\Ui\Component\Listing\Column;
+/**
+ * Copyright © 2025 Tux Web Design. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+declare(strict_types=1);
+
+namespace MageOS\BackupEnhanced\Ui\Component\Listing\Column;
 
 use Magento\Framework\UrlInterface;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;

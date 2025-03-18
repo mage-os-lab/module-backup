@@ -20,7 +20,7 @@
             <updateUrl path="mui/index/render"/>
         </settings>
         <aclResource>MageOS_Backup::backup_list</aclResource>
-        <dataProvider class="MageOS\Backup\Ui\DataProvider\BackupDataProvider"
+        <dataProvider class="MageOS\BackupEnhanced\Ui\DataProvider\BackupDataProvider"
                      name="backup_listing_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>
@@ -54,7 +54,7 @@
                 <label translate="true">Size</label>
             </settings>
         </column>
-        <actionsColumn name="actions" class="MageOS\Backup\Ui\Component\Listing\Column\BackupActions">
+        <actionsColumn name="actions" class="MageOS\BackupEnhanced\Ui\Component\Listing\Column\BackupActions">
             <settings>
                 <indexField>filename</indexField>
                 <resizeEnabled>false</resizeEnabled>

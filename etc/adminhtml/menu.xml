@@ -2,18 +2,18 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="MageOS_Backup::backup"
+        <add id="MageOS_BackupEnhanced::backup"
              title="Backup Management"
-             module="MageOS_Backup"
+             module="MageOS_BackupEnhanced"
              sortOrder="100"
              parent="Magento_Backend::system"
-             resource="MageOS_Backup::backup"/>
-        <add id="MageOS_Backup::backup_list"
+             resource="MageOS_BackupEnhanced::backup"/>
+        <add id="MageOS_BackupEnhanced::backup_list"
              title="Backup List"
-             module="MageOS_Backup"
+             module="MageOS_BackupEnhanced"
              sortOrder="10"
-             parent="MageOS_Backup::backup"
+             parent="MageOS_BackupEnhanced::backup"
              action="backup/index/index"
-             resource="MageOS_Backup::backup_list"/>
+             resource="MageOS_BackupEnhanced::backup_list"/>
     </menu>
 </config>

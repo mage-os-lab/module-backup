@@ -1,7 +1,11 @@
 <?php
+/**
+ * Copyright © 2025 Tux Web Design. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
 declare(strict_types=1);
 
-namespace MageOS\Backup\Controller\Adminhtml\Index;
+namespace MageOS\BackupEnhanced\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;

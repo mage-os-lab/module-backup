@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
     <group id="default">
         <job name="mageos_backup_daily"
-             instance="MageOS\Backup\Cron\DailyBackup"
+             instance="MageOS\BackupEnhanced\Cron\DailyBackup"
              method="execute">
             <schedule>0 0 * * *</schedule>
         </job>

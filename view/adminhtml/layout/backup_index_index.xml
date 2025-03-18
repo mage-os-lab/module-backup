@@ -5,7 +5,7 @@
     <body>
         <referenceContainer name="content">
             <uiComponent name="backup_listing"/>
-            <block class="Magento\Framework\View\Element\Template" name="backup_warning" template="MageOS_Backup::backup/warning.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="backup_warning" template="MageOS_BackupEnhanced::backup/warning.phtml"/>
         </referenceContainer>
     </body>
 </page>

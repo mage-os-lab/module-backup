@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route id="backup" frontName="backup">
-            <module name="MageOS_Backup"/>
+            <module name="MageOS_BackupEnhanced"/>
         </route>
     </router>
 </config>

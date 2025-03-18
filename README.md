@@ -18,7 +18,7 @@ A robust backup management solution for Magento 2 that automates system and data
 ### Via Composer
 
 ```bash
-composer require mage-os-lab/module-backup
+composer require mage-os/module-backup-enhanced
 ```
 
 ### Manual Installation
