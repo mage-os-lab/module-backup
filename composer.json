@@ -1,7 +1,10 @@
 {
     "name": "mage-os/module-backup-enhanced",
-    "description": "This module manages backups for Magento 2.",
     "type": "magento2-module",
+    "description": "This module manages backups for Magento 2.",
+    "keywords": ["magento2","backup","enhanced","mageOS"],
+    "homepage": "https://github.com/mage-os-lab/module-backup",
+    "license": "MIT",
     "version": "1.0.5",
     "authors": [
         {
@@ -21,7 +24,6 @@
             "MageOS\\Backup\\": ""
         }
     },
-    "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true
 }
